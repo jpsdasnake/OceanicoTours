@@ -10,6 +10,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #212529;
 }
 
 h1 {
@@ -73,10 +74,27 @@ a:link:active {
   size-adjust: 10%;
   height: 293.4px;
   width: 440px;
-  display: inline-block;
   border-radius: 15px;
+}
+
+.tour-section {
+  justify-self: center;
 }
 
 li {
   list-style: circle;
+}
+
+.warning {
+  font-size: 10px;
+}
+
+.header-img {
+  margin-top: 1%;
+  margin-bottom: 20px;
+}
+
+.header-div {
+  display: flex;
+  justify-content: center;
 }
