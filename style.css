@@ -21,6 +21,13 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
+.header-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -121,6 +128,10 @@ a {
   transition: all 0.3s ease;
 }
 
+.tours {
+  flex-wrap: wrap;
+}
+
 .article {
   display: grid;
   border-radius: 15px;
@@ -146,7 +157,7 @@ a {
 }
 
 .first-article {
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 .article-img {
