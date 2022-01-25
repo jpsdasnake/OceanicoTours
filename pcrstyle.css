@@ -18,7 +18,14 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.185);
+}
+
+.header-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
 }
 
 a {
@@ -39,6 +46,10 @@ a {
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
   z-index: 120;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
 }
 
 .hamburger1 div {
@@ -121,12 +132,17 @@ a {
   transition: all 0.3s ease;
 }
 
+.margin {
+  width: 100%;
+  height: 28px;
+}
+
 .article {
   border-radius: 15px;
   width: 335px;
   height: auto;
-  /* margin: 0 auto;
-  margin-bottom: 8%; */
+  margin: 0 auto;
+  margin-bottom: 8%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   /* flex: 1; */
